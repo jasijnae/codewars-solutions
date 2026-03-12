@@ -1,0 +1,20 @@
+function grow(x){
+
+  return x.reduce((acc, cur) => cur * acc)
+  
+}
+
+/*
+
+input
+  an array of numbers
+output
+  one number that is the total of all the number 
+  multiplying the first num byt the next num
+return
+  return
+task
+  multiply first num by second num then the next num
+Method
+  reduce
+*/
