@@ -1,0 +1,27 @@
+function stringClean(s){
+  s = s
+    .split("")
+    .filter(char => isNaN(char) || char === " ")
+    .join("")
+  
+  return s
+}
+
+/*
+input - 
+  string
+  letters, numbers, special characters
+output 
+  no numbers, all special characters presevered, all spaces preserved
+return
+  return
+task
+  take in string
+  review each character
+    need to split into arrary to review each character
+    if the character is no a number return the character
+    filter through each character for none numbers
+    return character
+    join array to string
+    return
+*/
