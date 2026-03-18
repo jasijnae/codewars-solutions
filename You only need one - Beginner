@@ -1,0 +1,16 @@
+function check(a, x) {
+  return a.includes(x)
+}
+
+/*
+inputs
+  array of values
+  the value
+outputs
+  true or false
+return
+  return
+Method
+  check if the array includes the value
+  .includes(x)
+*/
