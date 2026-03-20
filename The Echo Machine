@@ -1,0 +1,10 @@
+function echoWord(word, count) {
+  let result = ""; 
+  
+  for (let i = 1; i <= count; i++) {
+    // Take the current result, glue the word to the back, 
+    // and save it back into the result variable.
+  }
+  
+  return result;
+}+

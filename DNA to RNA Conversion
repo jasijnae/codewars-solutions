@@ -1,0 +1,20 @@
+function DNAtoRNA(dna) {
+ return dna.replaceAll("T", "U")
+}
+
+
+/*
+input 
+  up to a 4 letter,
+  sometimes empty
+output
+  the T in the string replaced by U
+return
+  string
+  up to a 4 letters
+  no Us
+task
+  transform "GCAT"  ->  "GCAU"
+methods
+  .replace
+*/
