@@ -1,0 +1,20 @@
+function sumStr(a,b) {
+  return (Number(a) + Number(b)).toString()
+}
+
+/*
+
+input
+  2 strings
+  whole position numbers
+  sometimes empty
+output
+  sum of the 2 strings
+  string
+return
+  return
+method
+  turn string into a number Number()
+  turn number into string .toString()
+
+*/
