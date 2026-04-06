@@ -1,0 +1,21 @@
+function points(games) {
+  return games.map((ele, ind) => [...ele[0]] > [...ele[2]] ? 3 : [...ele[0]] < [...ele[2]] ? 0 : 1).reduce((cur, acc) => acc+cur, 0)
+}
+
+/*
+input 
+  an array
+  10 ele in arr
+output
+  1 num
+task
+  compare x to y,
+  return which ever value is greatest
+  return 1 num
+  map through each ele and return the greatest amount
+  sum the greatest
+methods
+  .map
+  .reduce
+  spread
+*/
