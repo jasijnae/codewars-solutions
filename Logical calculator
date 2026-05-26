@@ -1,0 +1,18 @@
+function logicalCalc(arr, op){
+
+  switch (op){ //if the operator is
+       
+      case "AND": {//AND and includes false should return false
+        return !arr.includes(false)
+      }      
+        break;
+      case "OR":{//OR and includes true should return true
+        return arr.includes(true);
+      }       
+        break;
+      case "XOR":{//XOR return false if same
+        return arr.reduce((result, current) => result !== current);        
+      }       
+        break;
+      }
+}
