@@ -1,0 +1,20 @@
+function gimme (trip) {
+ 
+  let sort = [...trip].sort((a,b) => a - b);
+  let index = sort[1]
+  return trip.indexOf(index)
+}
+
+/*input
+ a 3 digit array
+ no empty elements
+output
+  return
+  the index of the target value
+task
+  1. split into an array
+  2. sort to find the middle num
+  3. mid num is index 1
+  4. use indexOf to find the index of the val of index 1
+methods
+  .sort */
