@@ -1,0 +1,12 @@
+function getMiddle(s) {
+  
+    let start = s.slice(0,Math.ceil(s.length/2))
+    let end = s.slice(-s.length/2)
+    let mid = start.slice(Math.ceil(s.length/2)-1)
+      
+    if(s.length % 2 === 0){
+      return start.slice(-1) + end.slice(0,1)
+    }else{
+      return mid
+    }
+}
