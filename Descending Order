@@ -1,0 +1,25 @@
+function descendingOrder(n){
+  
+  
+  return Number(String(n)
+    .split('')
+    .sort((h, l) => l - h)
+    .join('')
+    )
+}
+
+/*
+input
+  number
+output
+  number
+  return
+task
+  return the number from largest digit to shortest digit
+methods
+  .sort()
+  turn into a string String()
+  .split()
+  .join()
+  turn back to a number Number()
+*/
