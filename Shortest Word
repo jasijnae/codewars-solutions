@@ -1,0 +1,31 @@
+function findShort(str){
+  
+  let arr = str.split(" ")
+  return Math.min(...arr.map(arr => arr.length))  
+  }
+
+/*
+input
+  string
+  multiple words
+output
+  number
+  the shortest word length
+return
+  return
+tasks
+  take a string and return the shortest word
+  will need to go through each word and compare the word length
+  can't compare multiple word lengths in a string, 
+    must split into an array
+    must compare arr lengths
+    find the array with the min length
+    if cur length if less than acc length return cur len
+    need to inerate through the array, do not need to create a new array
+    need to return length of the smallest arr
+method
+  str
+  .split()
+  Math.min()
+  .map()
+*/
