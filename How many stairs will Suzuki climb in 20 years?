@@ -1,0 +1,4 @@
+function stairsIn20(s){
+  s = s.flat(Infinity)
+  return s.reduce((acc,cur) => cur + acc)*20
+}
