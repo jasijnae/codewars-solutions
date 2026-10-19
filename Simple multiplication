@@ -1,0 +1,17 @@
+const simpleMultiplication = num => num % 2 === 0 ? num * 8 : num * 9
+
+
+/* 
+inputs
+  number, not specified if interger or decimal 
+  one number
+outputs
+  return
+  one number
+tasks
+  multiple evens by 8
+  mupltiple odds by 9
+  check remainder
+ methods
+  modulos % 2 === 0 equals 8, else 9
+  num % 2 === 0 {return num * 8} else num * 9
