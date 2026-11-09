@@ -1,23 +1,20 @@
-let countSheep = function (num){
-  
-  let sleep = ''
-  for (let i = 1; i <= num; i++){
-    sleep += i + ' sheep...'
-  }
-  return sleep
+function buildNumberString(num) {
+ let string = ""
+for (let i=1; i<=num; i++){
+string += i +"-"
+}
+return string
 }
 
+
 /*
-input
-  one number
-output
-  every number up to and including num plus 'sheep...'
-return
-  return
+input an unknown number
+
+output every number plus dash until that number
+
+return- return
+
 method
-  take in a number
-  interate through the number
-  need to print each number up to the number, 
-    for each result print num sheep...
-  need to add sheep... to each number everytime  
-*/
+iterate through every number up to num starting at 1
+for each number added add - immediately after, no spaces
+*/ 
